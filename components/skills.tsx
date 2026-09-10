@@ -1,6 +1,7 @@
 "use client";
 
 import { skills } from "@/lib/data";
+import { TechIcon } from "@/lib/icon-map";
 
 const skillCategories = [
   { label: "Languages", key: "languages" },
@@ -28,14 +29,15 @@ export default function Skills() {
               <h3 className="text-sm font-semibold uppercase tracking-widest text-foreground">
                 {label}
               </h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-3">
                 {skills[key as keyof typeof skills].map((skill) => (
-                  <span
+                  <div
                     key={skill}
-                    className="text-sm font-medium text-foreground border border-border px-3 py-1.5 hover:border-foreground/50 transition-colors"
+                    className="flex items-center gap-2 text-sm font-medium text-foreground border border-border px-3 py-2 hover:border-foreground/50 transition-colors"
                   >
-                    {skill}
-                  </span>
+                    <TechIcon name={skill} />
+                    <span>{skill}</span>
+                  </div>
                 ))}
               </div>
             </div>
