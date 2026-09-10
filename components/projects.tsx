@@ -88,15 +88,17 @@ export default function Projects() {
                         >
                           GitHub →
                         </a>
-                        <a
-                          href={project.live}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className="text-[14px] font-medium text-foreground hover:opacity-60 transition-opacity"
-                        >
-                          Live →
-                        </a>
+                        {project.live && (
+                          <a
+                            href={project.live}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className="text-[14px] font-medium text-foreground hover:opacity-60 transition-opacity"
+                          >
+                            Live →
+                          </a>
+                        )}
                       </div>
                       <p className="text-[13px] uppercase tracking-widest text-foreground/50 pt-2">
                         Click to view details
