@@ -34,10 +34,10 @@ export const projects = [
 ];
 
 export const skills = {
-  languages: ["TypeScript", "JavaScript", "SQL", "Python"],
-  frontend: ["React", "Next.js", "Tailwind CSS", "CSS"],
-  backend: ["Node.js", "Express", "PostgreSQL", "MongoDB"],
-  tools: ["Git", "Docker", "AWS", "Vercel"],
+  languages: ["Python", "Java", "C++", "C#", "TypeScript", "Dart", "SQL"],
+  frontend: ["Next.js", "Flutter", "React", "Tailwind CSS", "Jetpack Compose"],
+  backend: ["Supabase", "PostgreSQL", "Google Maps API", "Google Cloud Platform", "Vercel"],
+  tools: ["Git", "GitHub", "VS Code"],
 };
 
 export const experience = [
