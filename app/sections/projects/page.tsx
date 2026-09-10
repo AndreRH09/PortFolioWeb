@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { projects as projectsData } from "@/lib/data";
-import DepthCarousel from "../app/projects/DepthCarousel";
+import DepthCarousel from "../../projects/DepthCarousel";
 import ProjectModal from "./project-modal";
 
 export default function Projects() {
