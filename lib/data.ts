@@ -60,23 +60,70 @@ export const experience = [
 export const certifications = [
   {
     id: 1,
-    name: "Advanced TypeScript",
-    issuer: "Coursera",
-    year: 2023,
+    name: "Google Cloud Computing Foundations Certificate",
+    issuer: "Google Cloud",
+    year: 2024,
   },
   {
     id: 2,
-    name: "AWS Solutions Architect",
-    issuer: "Amazon Web Services",
-    year: 2022,
+    name: "Skill Badge: Network Security",
+    issuer: "Google Cloud",
+    year: 2024,
+  },
+  {
+    id: 3,
+    name: "Skill Badge: Load Balancing",
+    issuer: "Google Cloud",
+    year: 2024,
+  },
+  {
+    id: 4,
+    name: "Skill Badge: ML Data Prep",
+    issuer: "Google Cloud",
+    year: 2024,
+  },
+  {
+    id: 5,
+    name: "Skill Badge: App Development Environment",
+    issuer: "Google Cloud",
+    year: 2024,
+  },
+  {
+    id: 6,
+    name: "Networking Basics",
+    issuer: "Cisco Networking",
+    year: 2024,
+  },
+  {
+    id: 7,
+    name: "Devices Configuration",
+    issuer: "Cisco Networking",
+    year: 2024,
+  },
+  {
+    id: 8,
+    name: "Endpoint Security",
+    issuer: "Cisco Networking",
+    year: 2024,
+  },
+  {
+    id: 9,
+    name: "Network Defense",
+    issuer: "Cisco Networking",
+    year: 2024,
+  },
+  {
+    id: 10,
+    name: "Cyber Threat Management",
+    issuer: "Cisco Networking",
+    year: 2024,
   },
 ];
 
 export const contact = {
-  email: "andre@example.com",
-  linkedin: "https://linkedin.com/in/andre",
-  github: "https://github.com/andre",
-  phone: "+1 (555) 123-4567",
+  email: "andreahrenzo@gmail.com",
+  linkedin: "https://linkedin.com/in/andrerh09",
+  github: "https://github.com/AndreRH09",
 };
 
 export const cvUrl = "/cv.pdf";
