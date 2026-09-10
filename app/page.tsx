@@ -2,6 +2,7 @@ import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import Certifications from "@/components/certifications";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Certifications />
+      <Contact />
     </>
   );
 }

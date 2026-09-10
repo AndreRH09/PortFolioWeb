@@ -121,10 +121,9 @@ export const certifications = [
 ];
 
 export const contact = {
-  email: "andre@example.com",
-  linkedin: "https://linkedin.com/in/andre",
-  github: "https://github.com/andre",
-  phone: "+1 (555) 123-4567",
+  email: "andreahrenzo@gmail.com",
+  linkedin: "https://linkedin.com/in/andrerh09",
+  github: "https://github.com/AndreRH09",
 };
 
 export const cvUrl = "/cv.pdf";
