@@ -15,21 +15,41 @@ export default function Certifications() {
           </p>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-4">
           {certifications.map((cert) => (
             <div
               key={cert.id}
-              className="flex flex-col sm:flex-row sm:items-center sm:justify-between border-b border-border pb-4 last:border-b-0"
+              className="flex flex-col gap-3 border border-border rounded-lg p-4 hover:bg-white/5 transition-colors"
             >
-              <div className="space-y-1">
-                <h3 className="text-base font-medium text-foreground">
-                  {cert.name}
-                </h3>
-                <p className="text-sm text-muted">{cert.issuer}</p>
+              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                <div className="flex-1 space-y-1">
+                  <h3 className="text-base font-medium text-foreground">
+                    {cert.name}
+                  </h3>
+                  {cert.description && (
+                    <p className="text-sm text-muted">{cert.description}</p>
+                  )}
+                </div>
+                {(cert.date || cert.year) && (
+                  <span className="text-sm text-muted whitespace-nowrap">
+                    {cert.date || cert.year}
+                  </span>
+                )}
               </div>
-              <span className="text-sm text-muted mt-2 sm:mt-0 sm:ml-4">
-                {cert.year}
-              </span>
+
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <p className="text-xs text-foreground/60">{cert.issuer}</p>
+                {cert.link && (
+                  <a
+                    href={cert.link}
+                    target={cert.link.startsWith("http") ? "_blank" : undefined}
+                    rel={cert.link.startsWith("http") ? "noopener noreferrer" : undefined}
+                    className="text-xs font-medium text-foreground hover:opacity-60 transition-opacity inline-block"
+                  >
+                    View Certificate →
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>
