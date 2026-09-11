@@ -83,8 +83,7 @@ export const certifications = [
     name: "DELF B1 - Diplôme d'Études en Langue Française",
     description: "French language proficiency certification",
     issuer: "Alliance Française de Arequipa",
-    date: "02/03/2025",
-    year: 2025,
+    date: new Date(2025, 2), // Marzo 2025
     link: "/certifications/b1.pdf",
   },
   {
@@ -92,17 +91,15 @@ export const certifications = [
     name: "Hack4edu - Fundación Telefónica & HAKU",
     description: "Advanced preparation program in systems engineering and digital innovation",
     issuer: "Facultad de Ingeniería de Sistemas (UNSA) + Fundación Telefónica + HAKU",
-    date: "Agosto - Octubre 2025",
-    year: 2025,
+    date: new Date(2025, 9), // Octubre 2025 (conclusión)
     link: "/certifications/hack4edu.pdf",
   },
   {
     id: 3,
-    name: "ENGIETEK S.A. - International Engineering Congress",
+    name: "PERUMEC 2026 - International Engineering Congress",
     description: "Attendance certificate - International engineering and technology conference",
     issuer: "ASME PERU SECTION & ENGIETEK S.A.",
-    date: "Agosto 2025",
-    year: 2025,
+    date: new Date(2026, 7), // Agosto 2026
     link: "/certifications/perumec.pdf",
   },
   {
@@ -110,7 +107,7 @@ export const certifications = [
     name: "Google Cloud Computing Foundations Certificate",
     description: "Cloud infrastructure and foundational cloud computing skills",
     issuer: "Google Cloud",
-    year: 2024,
+    date: new Date(2024, 9), // Octubre 2024
     link: "https://www.credly.com/earner/earned/badge/00da02e3-94be-4767-bcca-85a469350b8b",
   },
   {
@@ -118,7 +115,7 @@ export const certifications = [
     name: "Cisco Networking Academy",
     description: "Multiple skill badges in networking, security, and infrastructure",
     issuer: "Cisco Networking",
-    year: 2024,
+    date: new Date(2024, 0), // 2024
   },
 ];
 

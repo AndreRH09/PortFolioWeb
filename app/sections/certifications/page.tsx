@@ -2,6 +2,12 @@
 
 import { certifications } from "@/lib/data";
 
+const formatMonth = (date: Date) => {
+  return new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" }).format(date);
+};
+
+const sortedCertifications = [...certifications].sort((a, b) => b.date.getTime() - a.date.getTime());
+
 export default function Certifications() {
   return (
     <section id="certifications" className="py-24 px-6">
@@ -16,7 +22,7 @@ export default function Certifications() {
         </div>
 
         <div className="space-y-4">
-          {certifications.map((cert) => (
+          {sortedCertifications.map((cert) => (
             <div
               key={cert.id}
               className="flex flex-col gap-3 border border-border rounded-lg p-4 hover:bg-white/5 transition-colors"
@@ -30,11 +36,9 @@ export default function Certifications() {
                     <p className="text-sm text-muted">{cert.description}</p>
                   )}
                 </div>
-                {(cert.date || cert.year) && (
-                  <span className="text-sm text-muted whitespace-nowrap">
-                    {cert.date || cert.year}
-                  </span>
-                )}
+                <span className="text-sm text-muted whitespace-nowrap">
+                  {formatMonth(cert.date)}
+                </span>
               </div>
 
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
