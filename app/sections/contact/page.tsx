@@ -16,7 +16,7 @@ const contactLinks = [
   {
     label: "LinkedIn",
     href: contact.linkedin,
-    value: "linkedin.com/in/andrerh09",
+    value: "linkedin.com/in/andre-renzo-anazco-huamanquispe/",
   },
 ];
 

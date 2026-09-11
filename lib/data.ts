@@ -121,7 +121,7 @@ export const certifications = [
 
 export const contact = {
   email: "andreahrenzo@gmail.com",
-  linkedin: "https://linkedin.com/in/andrerh09",
+  linkedin: "https://www.linkedin.com/in/andr%C3%A9-renzo-a%C3%B1azco-huamanquispe/",
   github: "https://github.com/AndreRH09",
 };
 
