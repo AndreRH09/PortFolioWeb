@@ -58,6 +58,7 @@ export const skills = {
   frontend: ["Next.js", "Flutter", "React", "Tailwind CSS", "Jetpack Compose"],
   backend: ["Supabase", "PostgreSQL", "Google Cloud Platform", "Vercel"],
   tools: ["Git", "GitHub", "VS Code"],
+  productivity: ["Microsoft Office Suite (Word, Excel)", "MOS Certified", "Document Automation", "Data Analysis & Spreadsheet Modeling"],
 };
 
 export const experience = [
@@ -116,6 +117,22 @@ export const certifications = [
     description: "Multiple skill badges in networking, security, and infrastructure",
     issuer: "Cisco Networking",
     date: new Date(2024, 0), // 2024
+  },
+  {
+    id: 6,
+    name: "Microsoft Office Specialist (MOS) - Word 2016",
+    description: "Advanced proficiency in Microsoft Word 2016 formatting, document management, and automation",
+    issuer: "Microsoft",
+    date: new Date(2021, 0), // Febrero 2021
+    link: "/certifications/mosword2016.pdf",
+  },
+  {
+    id: 7,
+    name: "Microsoft Office Specialist (MOS) - Excel 2016",
+    description: "Advanced proficiency in Microsoft Excel 2016 data analysis, formulas, and spreadsheet automation",
+    issuer: "Microsoft",
+    date: new Date(2021, 1), // Marzo 2021
+    link: "/certifications/mosexcel2016.pdf",
   },
 ];
 

@@ -8,6 +8,7 @@ const skillCategories = [
   { label: "Frontend & Mobile", key: "frontend" },
   { label: "Backend & Infrastructure", key: "backend" },
   { label: "Tools", key: "tools" },
+  { label: "Productivity & Office", key: "productivity" },
 ] as const;
 
 export default function Skills() {
