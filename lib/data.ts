@@ -86,6 +86,8 @@ export const certifications = [
     issuer: "Alliance Française de Arequipa",
     date: new Date(2025, 2), // Marzo 2025
     link: "/certifications/b1.pdf",
+    relevance: 4,
+    logo: "/org/aliance.jpg",
   },
   {
     id: 2,
@@ -94,6 +96,8 @@ export const certifications = [
     issuer: "Facultad de Ingeniería de Sistemas (UNSA) + Fundación Telefónica + HAKU",
     date: new Date(2025, 9), // Octubre 2025 (conclusión)
     link: "/certifications/hack4edu.pdf",
+    relevance: 4.5,
+    logo: "/org/telefonica.jpg",
   },
   {
     id: 3,
@@ -102,6 +106,8 @@ export const certifications = [
     issuer: "ASME PERU SECTION & ENGIETEK S.A.",
     date: new Date(2026, 7), // Agosto 2026
     link: "/certifications/perumec.pdf",
+    relevance: 3,
+    logo: "/org/perumec.png",
   },
   {
     id: 4,
@@ -110,6 +116,8 @@ export const certifications = [
     issuer: "Google Cloud",
     date: new Date(2024, 9), // Octubre 2024
     link: "https://www.credly.com/earner/earned/badge/00da02e3-94be-4767-bcca-85a469350b8b",
+    relevance: 5,
+    logo: "/org/google.png",
   },
   {
     id: 5,
@@ -117,6 +125,8 @@ export const certifications = [
     description: "Multiple skill badges in networking, security, and infrastructure",
     issuer: "Cisco Networking",
     date: new Date(2024, 0), // 2024
+    relevance: 3.5,
+    logo: "/org/cisco.png",
   },
   {
     id: 6,
@@ -125,6 +135,8 @@ export const certifications = [
     issuer: "Microsoft",
     date: new Date(2021, 0), // Febrero 2021
     link: "/certifications/mosword2016.pdf",
+    relevance: 3.5,
+    logo: "/org/microsoft.png",
   },
   {
     id: 7,
@@ -133,6 +145,8 @@ export const certifications = [
     issuer: "Microsoft",
     date: new Date(2021, 1), // Marzo 2021
     link: "/certifications/mosexcel2016.pdf",
+    relevance: 4,
+    logo: "/org/microsoft.png",
   },
 ];
 
