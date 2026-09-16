@@ -56,7 +56,7 @@ export const projects = [
 export const skills = {
   languages: ["Python", "Java", "C++", "C#", "TypeScript", "Dart", "SQL"],
   frontend: ["Next.js", "Flutter", "React", "Tailwind CSS", "Jetpack Compose"],
-  backend: ["Supabase", "PostgreSQL", "Google Cloud Platform", "Vercel"],
+  backend: ["Supabase", "PostgreSQL", "Google Cloud Platform", "Vercel", "Power BI"],
   tools: ["Git", "GitHub", "VS Code"],
   productivity: ["Microsoft Office Suite (Word, Excel)", "MOS Certified", "Document Automation", "Data Analysis & Spreadsheet Modeling"],
 };

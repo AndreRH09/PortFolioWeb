@@ -75,6 +75,7 @@ const techIcons: Record<string, IconEntry> = {
   PostgreSQL: { kind: "component", Icon: SiPostgresql, color: "#4169E1" },
   "Google Cloud Platform": { kind: "component", Icon: SiGooglecloud, color: "#4285F4" },
   Vercel: { kind: "component", Icon: SiVercel }, // monochrome by design
+  "Power BI": { kind: "lucide", Icon: BarChart3 }, // react-icons has no Power BI brand icon
   "Node.js": { kind: "component", Icon: SiNodedotjs, color: "#68A063" },
   "Node.js 22": { kind: "component", Icon: SiNodedotjs, color: "#68A063" },
   Express: { kind: "component", Icon: SiExpress, color: "#000000" },
