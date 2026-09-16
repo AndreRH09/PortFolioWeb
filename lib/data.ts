@@ -148,6 +148,16 @@ export const certifications = [
     relevance: 4,
     logo: "/org/microsoft.png",
   },
+  {
+    id: 8,
+    name: "Power BI Fundamentals",
+    description: "Data analysis and visualization fundamentals using Power BI Desktop, data import, reporting, and Power Query",
+    issuer: "Santander Open Academy",
+    date: new Date(2026, 8, 16), // Septiembre 16, 2026
+    link: "/certifications/powerbiFundamentals.pdf",
+    relevance: 3.75,
+    logo: "/org/santander.png",
+  },
 ];
 
 export const contact = {
