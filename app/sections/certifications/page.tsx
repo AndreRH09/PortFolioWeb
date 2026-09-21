@@ -5,7 +5,7 @@ import { certifications } from "@/lib/data";
 import { Award } from "lucide-react";
 
 const formatMonth = (date: Date) => {
-  return new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric" }).format(date);
+  return new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric" }).format(date);
 };
 
 const ITEMS_PER_PAGE = 4;
