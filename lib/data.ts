@@ -158,6 +158,16 @@ export const certifications = [
     relevance: 3.75,
     logo: "/org/santander.png",
   },
+  {
+    id: 9,
+    name: "Power BI Intermediate",
+    description: "Intermediate Power Query transformations, star-schema data modeling, DAX calculated columns and measures, advanced visualizations, and publishing to Power BI Service",
+    issuer: "Santander Open Academy",
+    date: new Date(2026, 8, 21), // Septiembre 21, 2026
+    link: "/certifications/powerBIIntermediate.pdf",
+    relevance: 4,
+    logo: "/org/santander.png",
+  },
 ];
 
 export const contact = {
