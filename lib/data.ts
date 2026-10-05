@@ -56,7 +56,7 @@ export const projects = [
 export const skills = {
   languages: ["Python", "Java", "C++", "C#", "TypeScript", "Dart", "SQL"],
   frontend: ["Next.js", "Flutter", "React", "Angular", "Tailwind CSS", "Jetpack Compose"],
-  backend: ["Supabase", "PostgreSQL", "Google Cloud Platform", "Vercel", "Power BI"],
+  backend: ["Supabase", "PostgreSQL", "Google Cloud Platform", "Vercel", "Power BI", "Machine Learning & AI Fundamentals", "Responsible AI"],
   tools: ["Git", "GitHub", "VS Code"],
   productivity: ["Microsoft Office Suite (Word, Excel)", "MOS Certified", "Document Automation", "Data Analysis & Spreadsheet Modeling"],
 };
@@ -167,6 +167,15 @@ export const certifications = [
     link: "/certifications/powerBIIntermediate.pdf",
     relevance: 4,
     logo: "/org/santander.png",
+  },
+  {
+    id: 10,
+    name: "AWS AI Practitioner",
+    description: "Completed courses: Fundamentals of Machine Learning and Artificial Intelligence, Exploring AI Use Cases and Applications, and Responsible Artificial Intelligence Practices",
+    issuer: "Fundación Romero + AWS",
+    date: new Date(2026, 9, 5), // Octubre 2026
+    link: "/certifications/AWS_AICertificate.pdf",
+    relevance: 4,
   },
 ];
 
