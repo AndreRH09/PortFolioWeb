@@ -10,6 +10,8 @@ import {
   Layers,
   Zap,
   Package,
+  Cloud,
+  Sparkles,
 } from "lucide-react";
 
 // Simple Icons from react-icons/si
@@ -86,6 +88,8 @@ const techIcons: Record<string, IconEntry> = {
   "Google Cloud Platform": { kind: "component", Icon: SiGooglecloud, color: "#4285F4" },
   Vercel: { kind: "component", Icon: SiVercel }, // monochrome by design
   "Power BI": { kind: "lucide", Icon: BarChart3 }, // react-icons has no Power BI brand icon
+  "AWS AI Practitioner": { kind: "lucide", Icon: Cloud }, // react-icons has no AWS brand icon
+  "Generative AI": { kind: "lucide", Icon: Sparkles },
   "Node.js": { kind: "component", Icon: SiNodedotjs, color: "#68A063" },
   "Node.js 22": { kind: "component", Icon: SiNodedotjs, color: "#68A063" },
   Express: { kind: "component", Icon: SiExpress, color: "#000000" },

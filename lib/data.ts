@@ -74,7 +74,7 @@ export const projects = [
 export const skills = {
   languages: ["Python", "Java", "C++", "C#", "TypeScript", "Dart", "SQL"],
   frontend: ["Next.js", "Flutter", "React", "Angular", "Tailwind CSS", "Bootstrap", "Jetpack Compose"],
-  backend: ["Spring Boot", "Supabase", "PostgreSQL", "MySQL", "Google Cloud Platform", "Vercel", "Power BI", "Machine Learning & AI Fundamentals", "Responsible AI"],
+  backend: ["Spring Boot", "Supabase", "PostgreSQL", "MySQL", "Google Cloud Platform", "Vercel", "Power BI", "Machine Learning & AI Fundamentals", "Responsible AI", "AWS AI Practitioner", "Generative AI"],
   tools: ["Git", "GitHub", "Docker", "VS Code"],
   productivity: ["Microsoft Office Suite (Word, Excel)", "MOS Certified", "Document Automation", "Data Analysis & Spreadsheet Modeling"],
 };
@@ -188,12 +188,12 @@ export const certifications = [
   },
   {
     id: 10,
-    name: "AWS AI Practitioner",
-    description: "Completed courses: Fundamentals of Machine Learning and Artificial Intelligence, Exploring AI Use Cases and Applications, and Responsible Artificial Intelligence Practices",
-    issuer: "Fundación Romero + AWS",
-    date: new Date(2026, 9, 5), // Octubre 2026
-    link: "/certifications/AWS_AICertificate.pdf",
-    relevance: 4,
+    name: "AWS GenAI Practitioner - AWS Entrena",
+    description: "Completed the 3-week learning path \"Preparación Certificación - AWS AI Practitioner\": Fundamentals of ML and AI, AI Use Cases and Applications, Responsible AI Practices, and Generative AI",
+    issuer: "AWS Entrena LATAM + Fundación Romero (TIDWIT)",
+    date: new Date(2026, 9, 8), // Octubre 8, 2026
+    link: "https://enperu-romero.ontidwit.com/badge?id=82a00644-644e-4f33-9971-314e6dd0685f",
+    relevance: 4.5,
   },
 ];
 
