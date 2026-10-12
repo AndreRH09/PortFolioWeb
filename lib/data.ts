@@ -194,6 +194,7 @@ export const certifications = [
     date: new Date(2026, 9, 8), // Octubre 8, 2026
     link: "https://enperu-romero.ontidwit.com/badge?id=82a00644-644e-4f33-9971-314e6dd0685f",
     relevance: 4.5,
+    logo: "/org/tidwit.jpg",
   },
 ];
 
