@@ -41,6 +41,11 @@ import {
   SiSocketdotio,
   SiStorybook,
   SiContentful,
+  SiAngular,
+  SiSpringboot,
+  SiMysql,
+  SiDocker,
+  SiBootstrap,
 } from "react-icons/si";
 
 // Devicons from react-icons/di
@@ -69,6 +74,11 @@ const techIcons: Record<string, IconEntry> = {
   "Tailwind CSS": { kind: "component", Icon: SiTailwindcss, color: "#06B6D4" },
   "Jetpack Compose": { kind: "component", Icon: SiJetpackcompose, color: "#4285F4" },
   "Vite.js": { kind: "component", Icon: SiVite, color: "#646CFF" },
+  Angular: { kind: "component", Icon: SiAngular, color: "#DD0031" },
+  Bootstrap: { kind: "component", Icon: SiBootstrap, color: "#7952B3" },
+  "Spring Boot": { kind: "component", Icon: SiSpringboot, color: "#6DB33F" },
+  MySQL: { kind: "component", Icon: SiMysql, color: "#4479A1" },
+  Docker: { kind: "component", Icon: SiDocker, color: "#2496ED" },
 
   // Backend & Infrastructure
   Supabase: { kind: "component", Icon: SiSupabase, color: "#3ECF8E" },

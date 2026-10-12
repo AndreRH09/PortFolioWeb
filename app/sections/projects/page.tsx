@@ -123,6 +123,7 @@ export default function Projects() {
                 solution: currentProject.solution,
                 context: currentProject.context,
                 tech: currentProject.tech,
+                gallery: "gallery" in currentProject ? currentProject.gallery : undefined,
               }
             : null
         }

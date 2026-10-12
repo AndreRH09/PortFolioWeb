@@ -12,6 +12,7 @@ interface ProjectModalProps {
     solution: string;
     context: string;
     tech: string[];
+    gallery?: { src: string; caption: string }[];
   } | null;
 }
 
@@ -82,6 +83,23 @@ export default function ProjectModal({
                     {project.context}
                   </p>
                 </div>
+
+                {/* Gallery */}
+                {project.gallery && (
+                  <div className="space-y-3">
+                    <h3 className="text-sm font-semibold uppercase tracking-widest text-foreground">
+                      Screenshots
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {project.gallery.map(({ src, caption }) => (
+                        <figure key={src} className="space-y-2">
+                          <img src={src} alt={caption} className="w-full max-h-96 object-contain border border-border" />
+                          <figcaption className="text-xs text-muted">{caption}</figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* Technologies */}
                 <div className="space-y-3 border-t border-border pt-6">
